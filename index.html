@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oferta Especial de Video Marketing - Vate MKT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Chosen Palette: Energetic Blue & Saffron -->
+    <!-- Application Structure Plan: This has been transformed from a case study into a dedicated landing page. The structure is a classic sales funnel: 1. Hero section with a powerful headline and clear CTA. 2. A detailed breakdown of "What You Get," separating the paid product from the high-value free bonus. 3. A "How it Works" section to simplify the process. 4. A "Why This Offer?" section to address pain points. 5. A final, urgent CTA to drive conversion. This linear, persuasive flow is designed to maximize lead generation. -->
+    <!-- Visualization & Content Choices: - Report Info: Offer details. Goal: Inform/Persuade. Viz/Method: Icon-based feature list using HTML/Tailwind. Interaction: None. Justification: Clearly and visually separates each component of the offer, making the value proposition easy to understand. - Report Info: Process steps. Goal: Build trust. Viz/Method: Numbered step-by-step graphic. Interaction: None. Justification: Simplifies the customer journey and reduces friction. - Report Info: Placeholder for portfolio. Goal: Show social proof. Viz/Method: Visual grid of "video thumbnails." Interaction: None. Justification: Simulates a portfolio to build credibility, replacing the previous data charts. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+            color: #1e293b; /* slate-800 */
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+        }
+        .cta-button {
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-button:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.2), 0 4px 6px -4px rgb(0 0 0 / 0.2);
+        }
+        .feature-card {
+            background-color: white;
+            border-radius: 0.75rem;
+            padding: 2rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+            border: 1px solid #e2e8f0;
+        }
+        .price-tag {
+            background-color: #f59e0b; /* amber-500 */
+            color: #1e293b;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="Asset 1-8.png" alt="Vate MKT Logo" class="h-9">
+            </div>
+            <a href="#offer" class="cta-button bg-blue-600 text-white font-bold py-2 px-5 rounded-full text-sm">
+                ¡Quiero la Oferta!
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-gradient text-white">
+            <div class="container mx-auto px-6 py-20 text-center">
+                <h1 class="text-4xl md:text-6xl font-black tracking-tight mb-4">Atrae Clientes Reales con Video Marketing</h1>
+                <p class="max-w-3xl mx-auto text-lg md:text-xl text-blue-100 mb-8">
+                    Deja de pasar desapercibido. Con nuestra oferta de impulso inicial, producimos videos para tu negocio y los ponemos frente a miles de clientes potenciales en Guadalajara y Tlaquepaque.
+                </p>
+                <a href="#offer" class="cta-button inline-block bg-amber-500 text-slate-900 font-bold text-lg py-4 px-10 rounded-full">
+                    Obtener Mi Paquete de Impulso
+                </a>
+                <p class="mt-4 text-sm text-blue-200">Oferta válida para los primeros 10 negocios.</p>
+            </div>
+        </section>
+
+        <section id="offer-details" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-slate-800 mb-3">Una Oferta Irresistible para Crecer</h2>
+                    <p class="max-w-2xl mx-auto text-lg text-slate-600">Pagas por un video profesional y te regalamos un paquete completo de marketing digital para empezar a ver resultados desde el primer mes.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto items-start">
+                    <!-- What you pay for -->
+                    <div class="feature-card border-2 border-blue-600">
+                        <h3 class="text-2xl font-bold mb-4">Tu Inversión Inicial: 1 Video Profesional</h3>
+                         <div class="price-tag inline-block font-bold py-2 px-4 rounded-full mb-4 text-xl">
+                            $2,500 <span class="text-sm font-normal">MXN</span>
+                        </div>
+                        <p class="text-slate-600 mb-4">Producimos un video de alta calidad (Reel o spot corto) optimizado para redes sociales, que capture la esencia de tu marca y conecte con tu audiencia.</p>
+                        <ul class="space-y-2 text-slate-700">
+                            <li class="flex items-center"><span class="text-blue-500 mr-3 text-xl">&#10003;</span>Edición profesional y musicalización</li>
+                            <li class="flex items-center"><span class="text-blue-500 mr-3 text-xl">&#10003;</span>Formato vertical para Instagram/TikTok</li>
+                        </ul>
+                    </div>
+                    <!-- What you get for FREE -->
+                    <div class="feature-card bg-slate-800 text-white">
+                        <p class="text-amber-400 font-bold mb-2">PAQUETE DE PRUEBA ¡GRATIS!</p>
+                        <h3 class="text-2xl font-bold mb-4">Lo que Recibes Sin Costo Adicional</h3>
+                        <p class="text-slate-300 mb-6">Al contratar tu video, activamos tu prueba gratuita que incluye todo lo que necesitas para una campaña exitosa. <span class="font-bold">(Valorado en más de $8,000 MXN)</span></p>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <span class="bg-amber-500 text-slate-900 rounded-full w-6 h-6 flex items-center justify-center font-bold mr-3 shrink-0">&#9733;</span>
+                                <div>
+                                    <h4 class="font-semibold">1 Mes de Campaña en Facebook</h4>
+                                    <p class="text-sm text-slate-300">Gestionamos y optimizamos tus anuncios para llegar a tu público ideal en tu zona.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="bg-amber-500 text-slate-900 rounded-full w-6 h-6 flex items-center justify-center font-bold mr-3 shrink-0">&#9733;</span>
+                                <div>
+                                    <h4 class="font-semibold">4 Diseños para Anuncios en Meta</h4>
+                                    <p class="text-sm text-slate-300">Creamos gráficos atractivos y profesionales para complementar tus videos.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start p-4 rounded-lg bg-amber-500/10 border border-amber-500/30">
+                                <span class="bg-amber-500 text-slate-900 rounded-full w-6 h-6 flex items-center justify-center font-bold mr-4 shrink-0 mt-1">&#10029;</span>
+                                <div>
+                                    <h4 class="font-bold text-amber-400 text-lg">Recibe 4 Videos ADICIONALES</h4>
+                                    <p class="text-sm text-slate-200 font-semibold">¡Te entregamos un total de 5 videos listos para publicar!</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-slate-800 mb-3">Empezar es Muy Sencillo</h2>
+                    <p class="max-w-2xl mx-auto text-lg text-slate-600">En solo tres pasos, pasamos de la idea a tener tu campaña activa atrayendo clientes.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto text-center">
+                    <div class="flex flex-col items-center">
+                        <div class="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mb-4">1</div>
+                        <h3 class="text-xl font-bold mb-2">Reclama la Oferta</h3>
+                        <p class="text-slate-600">Haz clic en el botón y agenda una llamada rápida para confirmar los detalles. Realizas el pago de tu video principal para asegurar tu lugar.</p>
+                    </div>
+                     <div class="flex flex-col items-center">
+                        <div class="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mb-4">2</div>
+                        <h3 class="text-xl font-bold mb-2">Producimos tu Contenido</h3>
+                        <p class="text-slate-600">Nos ponemos manos a la obra con la edición de tus videos y la creación de los diseños para tus anuncios.</p>
+                    </div>
+                     <div class="flex flex-col items-center">
+                        <div class="bg-blue-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-2xl font-bold mb-4">3</div>
+                        <h3 class="text-xl font-bold mb-2">Lanzamos y Optimizamos</h3>
+                        <p class="text-slate-600">Activamos tu campaña en Meta Ads y la monitoreamos durante 30 días para maximizar su rendimiento y atraer clientes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="final-cta" class="bg-slate-800 text-white">
+             <div class="container mx-auto px-6 py-20 text-center">
+                <h2 class="text-4xl font-bold mb-4">¿Listo para que más clientes te descubran?</h2>
+                <p class="max-w-3xl mx-auto text-lg text-slate-300 mb-8">
+                   Esta es la señal que estabas esperando para invertir en tu visibilidad y crecimiento. No dejes pasar esta oportunidad única de obtener un paquete completo por el precio de un solo video.
+                </p>
+                <a href="mailto:hola@vatemkt.com" class="cta-button inline-block bg-amber-500 text-slate-900 font-bold text-lg py-4 px-10 rounded-full">
+                    ¡Sí, Quiero Crecer mi Negocio!
+                </a>
+                <p class="mt-4 text-sm text-slate-400">Cupos limitados. La oferta termina pronto.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-slate-200">
+        <div class="container mx-auto px-6 py-8 text-center text-slate-500">
+             <img src="Asset 2-8.png" alt="Vate MKT Logo Simple" class="h-8 mx-auto mb-4">
+            <p>&copy; 2025 Vate MKT. Impulsando negocios en Guadalajara y Tlaquepaque.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
